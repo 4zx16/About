@@ -1,52 +1,39 @@
-// Function to validate and submit a contact form
-function handleSubmitForm(event) {
-    event.preventDefault(); // Prevent default form submission
+// Function to handle external link clicks
+function handleExternalLink(event) {
+    event.preventDefault(); // Prevent the default anchor behavior
+    const link = this.href; // Get the link URL
 
-    // Get form fields
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
-
-    // Basic validation
-    if (name === '' || email === '' || message === '') {
-        alert('Please fill in all fields.');
-        return;
+    // Prompt the user with a confirmation dialog
+    const userConfirmed = confirm("You are about to leave this site. Do you want to proceed to " + link + "?");
+    
+    if (userConfirmed) {
+        window.location.href = link; // Redirect if user confirms
     }
+}
 
-    // Example of an AJAX call (using fetch) to send data to the server
-    const formData = {
-        name: name,
-        email: email,
-        message: message
-    };
-
-    fetch('https://your-server-endpoint.com/api/contact', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData)
-    })
-    .then(response => {
-        if (response.ok) {
-            alert('Message sent successfully!');
-            // Optionally reset the form
-            document.getElementById('contact-form').reset();
-        } else {
-            alert('Error sending message. Please try again.');
-        }
-    })
-    .catch(error => {
-        console.error('Error:', error);
-        alert('Error sending message. Please try again.');
+// Function for smooth scrolling to internal links
+function smoothScroll() {
+    const internalLinks = document.querySelectorAll('a[href^="#"]');
+    internalLinks.forEach(link => {
+        link.addEventListener('click', function (event) {
+            event.preventDefault(); // Prevent default anchor behavior
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+            if (targetElement) {
+                targetElement.scrollIntoView({ behavior: 'smooth' }); // Smooth scroll to target
+            }
+        });
     });
 }
 
-// Event listeners
+// Event listener for DOMContentLoaded
 document.addEventListener('DOMContentLoaded', function () {
-    // Contact form submission handling
-    const contactForm = document.getElementById('contact-form');
-    if (contactForm) {
-        contactForm.addEventListener('submit', handleSubmitForm);
-    }
+    // Handle external link detection
+    const externalLinks = document.querySelectorAll('a[target="_blank"], a[href^="http"], a[href^="https"]');
+    externalLinks.forEach(link => {
+        link.addEventListener('click', handleExternalLink);
+    });
+
+    // Initialize smooth scrolling for internal links
+    smoothScroll();
 });
