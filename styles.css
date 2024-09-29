@@ -1,35 +1,89 @@
- body {
-            background-color: black; /* Set the background color to black */
-            font-family: Arial, sans-serif;
-            color: white; /* Set the text color to white */
-        }
-        #header {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-        #container {
-            background-color: #000;
-            border: 1px solid #ccc;
-            border-radius: 10px;
-            margin: 20px;
-            padding: 20px;
-        }
-        #email-note {
-            color: #777;
-        }
-        #interests {
-            margin-top: 20px;
-        }
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
-        }
-        #social-media {
-            margin-top: 20px;
-        }
-        #social-media a {
-            text-decoration: none;
-            margin: 10px;
-        }
+/* Reset basic styles for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+#header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#header h1 {
+    font-size: 2.5em;
+}
+
+/* Main container styles */
+#container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #4a90e2;
+    margin-bottom: 10px;
+}
+
+/* Email note styles */
+#email-note {
+    display: flex;
+    align-items: center;
+}
+
+#email-note img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* Link styles */
+a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4a90e2;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
