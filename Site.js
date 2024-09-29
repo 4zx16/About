@@ -1,33 +1,52 @@
-// Function to scroll smoothly to an element
-function scrollToElement(elementId) {
-    const element = document.getElementById(elementId);
-    if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
+// Function to validate and submit a contact form
+function handleSubmitForm(event) {
+    event.preventDefault(); // Prevent default form submission
+
+    // Get form fields
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+
+    // Basic validation
+    if (name === '' || email === '' || message === '') {
+        alert('Please fill in all fields.');
+        return;
     }
+
+    // Example of an AJAX call (using fetch) to send data to the server
+    const formData = {
+        name: name,
+        email: email,
+        message: message
+    };
+
+    fetch('https://your-server-endpoint.com/api/contact', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData)
+    })
+    .then(response => {
+        if (response.ok) {
+            alert('Message sent successfully!');
+            // Optionally reset the form
+            document.getElementById('contact-form').reset();
+        } else {
+            alert('Error sending message. Please try again.');
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('Error sending message. Please try again.');
+    });
 }
 
-// Function to open external sites in the same tab
-function openLink(url) {
-    window.location.href = url; // Redirect to the new URL
-}
-
-// Add event listeners to links to handle scrolling or linking
+// Event listeners
 document.addEventListener('DOMContentLoaded', function () {
-    // Add smooth scroll to internal links (if applicable)
-    const internalLinks = document.querySelectorAll('a[href^="#"]');
-    internalLinks.forEach(link => {
-        link.addEventListener('click', function (event) {
-            event.preventDefault();
-            const targetId = this.getAttribute('href').substring(1);
-            scrollToElement(targetId);
-        });
-    });
-
-    // For external links, you can use a similar approach if you need specific handling
-    const externalLinks = document.querySelectorAll('a[href^="http"]');
-    externalLinks.forEach(link => {
-        link.addEventListener('click', function () {
-            openLink(this.href);
-        });
-    });
+    // Contact form submission handling
+    const contactForm = document.getElementById('contact-form');
+    if (contactForm) {
+        contactForm.addEventListener('submit', handleSubmitForm);
+    }
 });
