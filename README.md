@@ -22,14 +22,17 @@
         <img src="https://static.wixstatic.com/media/4585c8_562a61587130440b8df3e8d713ad29bf~mv2.png/v1/fill/w_70,h_75,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/blood%20gang%20icon.png" alt="Blood Gang Icon" width="18" height="18" style="vertical-align:middle;"> Blood Gang™️</a>, 
         a hub for innovation and collaboration. Join our <a href="https://linkr.it/blood" target="_blank">
         <img src="https://camo.githubusercontent.com/f325113081dc63f083c93090b3f7ffb63f9b16e264e4ac44cf9cc80267c81395/68747470733a2f2f66696c65732e636174626f782e6d6f652f63756e7168662e706e67" alt="Discord Icon" width="18" height="18" style="vertical-align:middle;"> Discord</a> 
-        community to connect with like-minded creators. Also, check out my Reddit community: <a href="https://reddit.com/r/4zx16" target="_blank">r/4zx16</a>.
+        community to connect with like-minded creators.
     </p>
-     I’m also the co-founder of  <img src="https://cdn.discordapp.com/attachments/1314057054146531358/1328904040842526771/unknown.jpeg" alt="Waist Studios Icon" width="18" height="18" style="vertical-align:middle;"> <a href="https://github.com/Waist-Studios-Inc" target="_blank">Waist Studios</a>, where we specialize in creating immersive and boundary-pushing experiences. Join our <a href="https://linkr.it/waist" target="_blank">
+    <p>
+        I’m also the co-founder of <a href="https://github.com/Waist-Studios-Inc" target="_blank">
+        <img src="https://cdn.discordapp.com/attachments/1314057054146531358/1328904040842526771/unknown.jpeg" alt="Waist Studios Icon" width="18" height="18" style="vertical-align:middle;"> Waist Studios</a>, where we specialize in creating immersive and boundary-pushing experiences. Connect with Waist Studios on <a href="https://linkr.it/waist" target="_blank">
         <img src="https://camo.githubusercontent.com/f325113081dc63f083c93090b3f7ffb63f9b16e264e4ac44cf9cc80267c81395/68747470733a2f2f66696c65732e636174626f782e6d6f652f63756e7168662e706e67" alt="Discord Icon" width="18" height="18" style="vertical-align:middle;"> Discord</a>.
+    </p>
     <div style="text-align: center;">
         <img src="https://i.pinimg.com/236x/bf/f3/7a/bff37a30670aac26e3b0c565828cc3b7.jpg" alt="Community Decor" style="width: 100px; height: auto; margin: 10px;">
     </div>
-    <h2>Full About Me!</h2>
+    <h2>Personalized About Me</h2>
     <p>
         For a deeper dive into my world, check out <a href="https://4zx16.carrd.co" target="_blank">my personal page</a>.
     </p>
