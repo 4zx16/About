@@ -29,7 +29,7 @@
     <div style="text-align: center;">
         <img src="https://i.pinimg.com/236x/bf/f3/7a/bff37a30670aac26e3b0c565828cc3b7.jpg" alt="Community Decor" style="width: 100px; height: auto; margin: 10px;">
     </div>
-    <h2>More About Me</h2>
+    <h2>Full About Me!</h2>
     <p>
         For a deeper dive into my world, check out <a href="https://4zx16.carrd.co" target="_blank">my personal page</a>.
     </p>
