@@ -26,7 +26,7 @@
     </p>
     <p>
         I’m also the co-founder of <a href="https://github.com/Waist-Studios-Inc" target="_blank">
-        <img src="https://cdn.discordapp.com/attachments/1314057054146531358/1328904040842526771/unknown.jpeg" alt="Waist Studios Icon" width="18" height="18" style="vertical-align:middle;"> Waist Studios</a>, where we specialize in creating immersive and boundary-pushing experiences. Connect with Waist Studios on <a href="https://linkr.it/waist" target="_blank">
+        <img src="https://github.com/user-attachments/assets/2a0f05a4-20b5-45d2-ab6c-85ef2778bdf7" alt="Waist Studios Icon" width="18" height="18" style="vertical-align:middle;"> Waist Studios</a>, where we specialize in creating immersive and boundary-pushing experiences. Join our <a href="https://linkr.it/waist" target="_blank">
         <img src="https://camo.githubusercontent.com/f325113081dc63f083c93090b3f7ffb63f9b16e264e4ac44cf9cc80267c81395/68747470733a2f2f66696c65732e636174626f782e6d6f652f63756e7168662e706e67" alt="Discord Icon" width="18" height="18" style="vertical-align:middle;"> Discord</a>.
     </p>
     <div style="text-align: center;">
