@@ -25,7 +25,7 @@
         community to connect with like-minded creators. Also, check out my Reddit community: <a href="https://reddit.com/r/4zx16" target="_blank">r/4zx16</a>.
     </p>
     <div style="text-align: center;">
-        <img src="https://i.pinimg.com/236x/1d/4f/8a/1d4f8abf9978392227a5f4ecc6208bba.jpg" alt="Decor" style="width: 100px; height: auto; margin: 10px;">
+        <img src="https://i.pinimg.com/236x/bf/f3/7a/bff37a30670aac26e3b0c565828cc3b7.jpg" alt="Community Decor" style="width: 100px; height: auto; margin: 10px;">
     </div>
     <h2>More About Me</h2>
     <p>
